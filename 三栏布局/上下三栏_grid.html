@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>使用grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-rows: 200px auto 200px;
+            grid-template-columns: 100%
+        }
+
+        .top {
+            background-color: red;
+
+        }
+
+        .center {
+            background-color: yellow;
+
+        }
+
+        .bottom {
+            background-color: blue;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top"></div>
+        <div class="center">占位文字占位文字占位文字</div>
+        <div class="bottom"></div>
+    </div>
+</body>
+
+</html>
