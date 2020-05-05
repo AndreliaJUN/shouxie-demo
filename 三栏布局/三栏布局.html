@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>使用absolute</title>
+    <style>
+        .containt div{
+            min-height: 400px;
+        }
+        .left{
+            background-color: red;
+            width: 300px;
+            position:absolute;
+            left: 0;
+        }
+        .right{
+            background-color: blue;
+            position:absolute;
+            width: 300px;
+            right:0;
+        }
+        .center{
+            background-color: yellow;
+            position:absolute;
+            right:300px;
+            left:300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="containt">
+        <div class="left"></div>
+        <div class="center"></div>
+        <div class="right"></div>
+    </div>
+</body>
+</html>
